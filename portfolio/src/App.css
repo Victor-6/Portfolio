@@ -1,0 +1,385 @@
+body {
+    min-height: 100%;
+}
+
+.header-color {
+    background: #8A2387; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-grid img {
+    border-radius: 10%;
+}
+
+.landing-grid {
+    background: #8A2387; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.projets-grid {
+    display: flex;
+}
+
+.Card {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 5%;
+}
+
+.contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.contact-grid img {
+    border-radius: 10%;
+}
+
+.contact-grid h2 {
+    font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+    font-family: "Owygen", sans-serif;
+    font-weight: bold;
+}
+
+.contact-grid hr {
+    border-top: 5px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+}
+
+.photo-img {
+    height: 250px;
+    padding-top: 7em;
+}
+
+.header-text {
+    background-color: black;
+    opacity: .8;
+    width: 55%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-text h2 {
+    padding-top: 2%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.header-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+
+.header-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    margin: auto;
+}
+
+.social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+}
+
+.about-text {
+    background-color: black;
+    width: 55%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.about-text {
+    margin-top: 2%;
+    text-align: center;
+}
+
+.about-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-text h2 {
+    padding-top: 2%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-text hr {
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    margin: auto;
+}
+
+.about-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.about-grid {
+    background-color: black;
+}
+
+.all-card {
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.all-card img {
+    padding-top: 2%;
+}
+
+.auchan-text {
+    text-align: center;
+    opacity: .8;
+}
+
+.auchan-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.auchan-text h2 {
+    padding-top: 2%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.auchan-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.auchan-text hr {
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    margin: auto;
+}
+
+.bouygue-grid {
+    justify-content: center;
+    position: absolute;
+    top: 34%;
+}
+
+.mondial_tissus-grid {
+    position: absolute;
+    top: 31%;
+    left: 68%;
+    width: 85%;
+
+}
+
+.bouygue-text {
+    text-align: center;
+    opacity: .8;
+}
+
+.bouygue-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.bouygue-text h2 {
+    padding-top: 2%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.bouygue-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.bouygue-text hr {
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    margin: auto;
+}
+
+.mondial_tissus-text {
+    text-align: center;
+    opacity: .8;
+}
+
+.mondial_tissus-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+
+.mondial_tissus-text h2 {
+    padding-top: 2%;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.mondial_tissus-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+
+.mondial_tissus-text hr {
+    border-top: 3px solid #ffffff;
+    width: 50%;
+    margin: auto;
+}
+
+.auchan-image {
+    margin-left: 2%;
+    width: 30.5%;
+}
+
+.bouygue-image {
+    margin-left: 1%;
+    width: 31%;
+}
+
+.mondial-image {
+    margin-left: 2%;
+    width: 30%;
+}
+
+.skill-body {
+    background-color: #C4C4C3;
+    margin: auto;
+    width: 100%;
+    height: 65%;
+    justify-content: center;
+    padding-top: 2em;
+}
+
+.skill-grid {
+    text-align: center;
+    background-color: #C4C4C3;
+    width: 80%;
+    height: 550px;
+    height: 65%;
+    background-color: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.skill-grid li {
+    font-family: "Owygen", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.skill-body button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+.skill-body button {
+    border-radius: 50%;
+}
+
+.hobbies-text {
+    text-align: center;
+    opacity: .8;
+    margin-top: -70%;
+    margin-left: 20%;
+}
+
+.hobbies-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: black;
+}
+
+.hobbies-text h2 {
+    padding-top: 2%;
+    font-size: 45px;
+    font-weight: bold;
+    color: black;
+}
+
+.hobbies-text p {
+    font-size: 20px;
+    padding: 1em;
+}
+
+.hobbies-text hr {
+    border-top: 3px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.hobbies-image {
+    margin-left: 200%;
+    width: 100%;
+    border-radius: 10%;
+}
