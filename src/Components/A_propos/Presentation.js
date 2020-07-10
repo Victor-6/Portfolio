@@ -15,8 +15,7 @@ class Presentation extends Component {
                             <p>Je suis Développeur Intégrateur Web étudiant de 25 ans à la WebAc@démie by EPITECH Nancy.
                                 C'est une formation sur 2 ans où j'étudie la théorie via différents projets individuel
                                 ou en groupe au cours de notre première année. Au cours de ma seconde année, je dois
-                                parfaire
-                                mon cursus par le biais d'une alternance de 14 mois en contrat de professionnalisation.
+                                parfaire mon cursus par le biais d'une alternance de 14 mois en contrat de professionnalisation.
                                 Pendant ma première année, j'ai pus étudier et travailler sur plusieurs langages, en
                                 particulier le PHP,
                                 le Javascript et le ReactJs. J'ai pus approfondir le PHP en utilisant des Frameworks
@@ -58,8 +57,8 @@ class Presentation extends Component {
                                 </li>
                                 <li style={{width: "100%", margin: "auto", paddingTop: "1em"}}>Développement back-end
                                 </li>
-                                <li style={{width: "100%", margin: "auto", paddingTop: "1em"}}>
-                                    Méthodologie de la conception web
+                                <li style={{width: "100%", margin: "auto", paddingTop: "1em", paddingLeft: "1em"}}>
+                                   Méthodologie conception web
                                 </li>
                             </div>
                         </Cell>

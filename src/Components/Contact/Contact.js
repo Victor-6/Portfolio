@@ -15,7 +15,7 @@ class Contact extends Component {
                             src={moi}
                             alt="avatar"
                             style={{height: "250px"}}/>
-                        <p style={{width: "75%", margin: "auto", paddingTop: "1em"}}>
+                        <p style={{width: "75%", margin: "auto", paddingTop: "2em", fontSize: "20px"}}>
                             Je suis Développeur Intégrateur Web étudiant à la WebAc@démie by EPITECH Nancy.
                             C'est une formation sur 2 ans où j'étudie différentes technologies par des projets sont
                             individuels
@@ -27,7 +27,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Contactez-moi</h2>
                         <hr/>
-                        <div className="contact-list">
+                        <div className="contact-list" style={{marginLeft: "15%"}}>
                             <List>
                                 <ListItem>
                                     <ListItemContent

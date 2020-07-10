@@ -11,12 +11,15 @@ class Experiences extends Component {
             <div>
                 <div className="all-card">
                     <img className="auchan-image"
+                         style={{borderRadius: "20%"}}
                          src={auchan}
                          alt="auchan"></img>
                     <img className="bouygue-image"
+                         style={{borderRadius: "20%"}}
                          src={bouygues}
                          alt="bouygue"></img>
                     <img className="mondial-image"
+                         style={{borderRadius: "20%"}}
                          src={mondial_tissus}
                          alt="mondial_tissus"></img>
                     <div>

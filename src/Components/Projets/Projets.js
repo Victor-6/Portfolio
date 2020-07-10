@@ -112,7 +112,7 @@ class Porjets extends Component {
                             recruteurs. Pour ce projet, j'ai utilisé du React pour le côté client.
                         </CardText>
                         <CardActions border>
-                            <Button target="_blank" colored>Gituhb</Button>
+                            <Button target="_blank" href="https://github.com/Victor-6/Portfolio" colored>Gituhb</Button>
                         </CardActions>
                         <CardMenu style={{color: "#fff"}}>
                         </CardMenu>
